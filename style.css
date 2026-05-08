@@ -1,4 +1,34 @@
-.zzang {
-    color: red;
-    background-color: yellow;
+header > h1{
+    text-align: center;
+    margin: 10px;
+    padding: 15px;
+}
+
+nav {
+    border: 1px solid black;
+}
+
+article {
+    float: right;
+    width: 300px;
+    border-width: 20px;
+}
+
+article > table {
+    border-collapse: collapse;
+}
+
+article > table th,
+article > table td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.profileName {
+    color: white;
+    background-color: black;
+}
+
+span {
+    color: aqua;
 }
